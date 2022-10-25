@@ -1,75 +1,61 @@
 body {
   background-color: #3494e4;
-  color: #fff;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 
-h1 {
-  display: block;
-  color: white;
-  font-weight: bold;
+.center {
+  text-align: center;
+}
+
+.standard-margin {
   margin: 10px 0px 10px 0px;
 }
-h3 {
-  display: block;
-  color: white;
-  font-weight: lighter;
-  margin: 10px 0px 10px 0px;
+
+.main-container, .sub-containers {
+  margin: auto;
+  display: flex;
 }
 
 .main-container {
-  background-color: white;
-  color: #3494e4;
+  background-color: #ffffff;
+  color: #144fc6;
   height: 330px;
   width: 150px;
   border: 4px solid #144fc6;
   border-radius: 0px 0px 40px 40px;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
-#two-litres {
-  color: #144fc6;
+.total-litres {
   font-weight: bold;
   font-size: 20px;
   margin: 5px;
 }
 
-#Remained {
-  color: #144fc6;
+.remaining-litres {
   font-weight: lighter;
   font-size: 12px;
   margin: 5px;
 }
 
 .sub-containers {
-  display: flex;
   flex-wrap: wrap;
   width: 280px;
-  align-items: center;
-  justify-content: center;
   font-size: 14px;
-  text-align: center;
+  color: #3494e4;
 }
 
 .sub-container {
   background-color: white;
-  color: #3494e4;
   height: 95px;
   width: 50px;
   border: 5px solid #144fc6;
   border-radius: 0px 0px 15px 15px;
   margin: 5px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
